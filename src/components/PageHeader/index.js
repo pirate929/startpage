@@ -2,7 +2,7 @@ import React  from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 
-import './index.css'
+import "./index.css"
 
 const PageHeader = () => {
         return(

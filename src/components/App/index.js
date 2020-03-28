@@ -1,7 +1,7 @@
-import React from 'react';
-import './index.css';
-import LinkTable from '../LinkTable';
-import PageHeader from '../PageHeader';
+import React from "react";
+import "./index.css";
+import LinkTable from "../LinkTable";
+import PageHeader from "../PageHeader";
 
 let linksList1 = [
   {"title": "Google" , "link": "https://www.google.com/"},

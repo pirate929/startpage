@@ -1,7 +1,7 @@
-import React from 'react'
-import Link from '../Link';
+import React from "react"
+import Link from "../Link";
 
-import './index.css'
+import "./index.css"
 
 const renderList = (list) => {
                 return list.map( ({title, link}) => {
