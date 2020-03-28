@@ -1,7 +1,7 @@
-import React from "react"
-import LinkSection from "../LinkSection"
+import React from "react";
+import LinkSection from "../LinkSection";
 
-import "./index.css"
+import "./index.css";
 
 const LinkTable = ({sectionsList}) => {
         return (
@@ -14,4 +14,4 @@ const LinkTable = ({sectionsList}) => {
                 </div>);
 }
 
-export default LinkTable
+export default LinkTable;

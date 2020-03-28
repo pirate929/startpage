@@ -1,12 +1,12 @@
-import React from "react"
+import React from "react";
 import Link from "../Link";
 
-import "./index.css"
+import "./index.css";
 
 const renderList = (list) => {
                 return list.map( ({title, link}) => {
                         return <Link key={title} link={link} >{title}</Link>
-                })
+                });
 }
 
 const LinkSection = ({list,title}) => {

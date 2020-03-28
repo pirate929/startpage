@@ -1,5 +1,5 @@
-import React from "react"
-import "./index.css"
+import React from "react";
+import "./index.css";
 
 const Link = (props) => {
         return(
@@ -11,7 +11,7 @@ const Link = (props) => {
                 >
                         {props.children}
                 </a>
-        )
+        );
 }
 
 export default Link;
