@@ -1,0 +1,31 @@
+
+.pageHeader {
+        /* border: 1px solid black; */
+        display: block;
+        margin: auto 10px;
+        color: #fafc82;
+        font-family: 'Pacificio';
+}
+
+.headerText {
+        width: 90%;
+        display: inline-block;
+        font-size: large;
+        font-weight: bold;
+        vertical-align: middle;
+        font-size: 36px;
+        /* min-width: 87%;
+        max-width: 88%; */
+}
+
+.icon-addUrl {
+        display: inline-block;
+        vertical-align: middle;
+        color: inherit;
+        background-color: inherit;
+        border: none;
+}
+
+.icon-addUrl svg {
+        font-size: 50px;
+}

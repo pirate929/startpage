@@ -1,0 +1,14 @@
+.link {
+        display: block;
+        text-decoration: none;
+        line-height: 35px;
+        border: 2px solid #e28a2b;
+        border-radius: 5px;
+        margin: 5px;
+}
+
+.link:hover {
+        font-family: 'Source Sans Pro Bold';
+        background-color: #af6eeb;
+        color: #83e22b;
+}

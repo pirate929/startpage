@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.css'
 
 const Link = (props) => {
         return(
@@ -6,6 +7,7 @@ const Link = (props) => {
                         href={props.link}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="link"
                 >
                         {props.children}
                 </a>
