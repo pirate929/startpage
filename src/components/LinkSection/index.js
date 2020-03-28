@@ -5,9 +5,9 @@ import "./index.css";
 
 const renderList = (list) => {
                 return list.map( ({title, link}) => {
-                        return <Link key={title} link={link} >{title}</Link>
+                        return <Link key={title} link={link} >{title}</Link>;
                 });
-}
+};
 
 const LinkSection = ({list,title}) => {
         
@@ -17,6 +17,6 @@ const LinkSection = ({list,title}) => {
                         {renderList(list)}
                 </div>
         );
-}
+};
 
 export default LinkSection;

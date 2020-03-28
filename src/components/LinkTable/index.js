@@ -8,10 +8,10 @@ const LinkTable = ({sectionsList}) => {
                 <div className="linkTable">
                         {
                                 sectionsList.map(({ title, list }) => {
-                                        return <LinkSection key={title} list={list} title={title} />
+                                        return <LinkSection key={title} list={list} title={title} />;
                                 })
                         }
                 </div>);
-}
+};
 
 export default LinkTable;

@@ -13,7 +13,7 @@ const PageHeader = () => {
                         </button>
                 </div>
         );
-}
+};
 
 
 export default PageHeader;
