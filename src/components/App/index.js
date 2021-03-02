@@ -17,12 +17,14 @@ let sectionsList = [
   {"title": "Time Pass", "list": linksList1}, {"title": "Work", "list":linksList2}
 ];
 
+let theme = "default";
+
 function App() {
 
   return (
     <div className="App">
-      <PageHeader />
-      <LinkTable sectionsList={sectionsList} />
+      <PageHeader theme={theme} />
+      <LinkTable sectionsList={sectionsList} theme={theme} />
     </div>
   );
 
