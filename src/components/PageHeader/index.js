@@ -4,7 +4,7 @@ import { faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 
 import "./index.css";
 
-const PageHeader = () => {
+const PageHeader = ({theme}) => {
         return(
                 <div className="pageHeader">
                         <p className="headerText">Welcome Linmoy</p>
